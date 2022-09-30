@@ -1,12 +1,12 @@
 <?php
-# variables et affichage
-    $nom = "BEYE";
-    $prenom = "Khalifa Ababacar";
-    // echo $nom;
+// # variables et affichage
+//     $nom = "BEYE";
+//     $prenom = "Khalifa Ababacar";
+//     // echo $nom;
 
-    $note1 = 10;
-    $note2 = 15;
-    $moyenne = ($note1 + $note2) / 2;
+//     $note1 = 10;
+//     $note2 = 15;
+//     $moyenne = ($note1 + $note2) / 2;
 
 //     // echo 'Bonjour ' . $prenom . ' ' . $nom . "\n" . ' vous avez une moyenne de ' . $moyenne . "\n";
 //     // echo "$prenom $nom \n vous avez une moyenne de $moyenne";
@@ -122,6 +122,6 @@
 //     }
 // }
 
-
-
+include "functions.php";
+var_dump(myfunc("c'est bon?"));
 ?>
